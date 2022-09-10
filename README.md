@@ -4,8 +4,20 @@ In SwiftUI, a property-wrapper provides velocity in pt/s from gesture
 
 ![CleanShot 2022-09-10 at 21 02 28](https://user-images.githubusercontent.com/1888355/189482409-bce594a4-7961-47cb-bb97-999e99943e73.gif)
 
-
 ## Instructions
+
+```swift
+@GestureVelocity private var velocity: CGVector
+```
+
+```swift
+.gesture(
+  DragGesture(...)
+  ... some declarations
+  .updatingVelocity($velocity)
+```
+
+## Example
 
 ```swift
 struct Joystick: View {
