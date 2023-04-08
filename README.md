@@ -98,8 +98,6 @@ struct Joystick: View {
 
 ## Example
 
-![CleanShot 2023-04-08 at 16 30 53](https://user-images.githubusercontent.com/1888355/230709392-7b17fd9e-ee7b-4874-b523-c6677aa226bf.gif)
-
 
 ```swift
 RoundedRectangle(cornerRadius: 16, style: .continuous)
