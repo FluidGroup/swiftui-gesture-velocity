@@ -18,7 +18,7 @@ In SwiftUI, a property-wrapper provides velocity in pt/s from gesture
 
 ## Example
 
-![CleanShot 2023-04-08 at 16 30 53](https://user-images.githubusercontent.com/1888355/230709415-010ce3cd-ef13-4a82-adf4-e01d560ce95b.gif)
+![CleanShot 2023-04-08 at 16 32 28](https://user-images.githubusercontent.com/1888355/230709515-163918d7-5ef0-47b7-b394-77b18c0c3d54.gif)
 
 
 ```swift
