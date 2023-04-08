@@ -45,7 +45,7 @@ struct Joystick: View {
     Circle()
       .fill(Color.blue)
       .frame(width: 100, height: 100)
-      .offset(position)
+      .animatableOffset(position) // https://github.com/FluidGroup/swiftui-support
       .gesture(
         DragGesture(
           minimumDistance: 0,
